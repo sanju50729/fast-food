@@ -19,7 +19,7 @@ function Header(){
   window.addEventListener('scroll', changeValueoOnScroll)
 
    
-    },);
+    };
     return(
         <>
         <header>
