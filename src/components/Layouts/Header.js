@@ -1,13 +1,12 @@
 import React, { useEffect, useState } from "react";
 import '../../styles/HeaderStyle.css';
 import { Container, Nav, Navbar } from "react-bootstrap";
-import { useLocation } from "react-router-dom";
 import Logo from '../../assets/logo/logo.png';
 import { Link } from 'react-scroll';
 
 function Header() {
   const [nav, setNav] = useState(false);
-  const [item, setItem] = useState('0');
+ 
 
   const changeValueOnScroll = () => {
     const scrollValue = document.documentElement.scrollTop;
