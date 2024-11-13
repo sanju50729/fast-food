@@ -40,10 +40,7 @@ function Header() {
                 <Nav.Link as={Link} to="section5" spy={true} smooth={true} offset={50} duration={500}>Blog</Nav.Link>
                 <Nav.Link as={Link} to="section6" spy={true} smooth={true} offset={50} duration={500}>Contact</Nav.Link>
                 <Nav.Link href="/">
-                  <div className="cart">
-                    <i className="bi bi-cart2 fs-5 add">{item}</i>
-                    <em className="roundpoint"></em>
-                  </div>
+                 
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
