@@ -18,8 +18,7 @@ function Header(){
 
   window.addEventListener('scroll', changeValueoOnScroll)
 
-    useEffect(()=>{
-      SetItem(title);
+   
     },);
     return(
         <>
